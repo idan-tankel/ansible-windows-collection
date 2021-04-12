@@ -11,3 +11,4 @@
 
 $path = Get-AnsibleParam -obj $params -name "path" -type "path" -failifempty $true -aliases "dest","destfile","name";
 $regexp = Get-AnsibleParam -obj $params -name "regex" -type "str" -aliases "regex";
+$replcae = Get-AnsibleParam -obj $param -name "replace" -type "str";
